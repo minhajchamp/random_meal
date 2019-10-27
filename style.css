@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+body {
+  margin: 0px;
+  font-family: 'Teko', Impact;
+  font-weight: 50;
+  background: repeating-radial-gradient(#e88138,#d15619);
+  color: white;
+  letter-spacing: 1px;
+  line-height: 2;
+
+}
+#container {
+  margin: 40px auto;
+  font-size: 20px;
+}
+#wrapper {
+  margin: 0px auto;
+  max-width: 1000px;
+    text-align: center;
+}
+img, button {
+  margin: 0 auto;
+      font-family: 'Teko';
+  font-size: 20px;
+}
+.main_btn {
+  color: white;
+  margin-top: 30vh;
+  width: 30%;
+  padding: 1rem;
+
+}
+
+
+.primary {
+  border: 0px;
+  background: linear-gradient(#d15619,#d64700);
+ 
+}
+
+
+@keyframes mymove {
+  from {top: 300px;}
+  to {top: 0px;}
+}
+
+.primary:hover {
+  background: linear-gradient(#e88138,#e88138);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 400px) {
+  #wrapper {
+    
+  }
+}
+
+
+
+
+
+
+
